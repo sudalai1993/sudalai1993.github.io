@@ -1,0 +1,46 @@
+﻿<div class='bg-wrapAnimae'>
+    <div ng-repeat="i in getSnowNumber(snowCount) track by $index" class="c"></div>
+</div>
+
+<div class="mainDivView" ng-cloak>
+    <div class="container">
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h1 style="text-align:center;color:black;">My Works</h1>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <a href="#WorkPortfolio" data-target="#WorkPortfolio" ng-click="navigateTo('WorkPortfolio')"> <div class="morph pic"><img src="Images/people-woman-coffee-meeting.jpg" class="img-responsive" style="width:100%;height:100%" alt="Image" /><span class="morphheading">Portfolio Responsive<br>web Design</span></div></a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <a href="#WorkMyyApp" data-target="#WorkMyyApp" ng-click="navigateTo('WorkMyyApp')">  <div class="morph pic"><img src="Images/pexels-photo-106344.jpeg" class="img-responsive" style="width:100%;height:100%" alt="Image" /><span class="morphheading">MYY App Responsive<br>web Design</span></div></a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <a href="#WorkWeatherApp" data-target="#WorkWeatherApp" ng-click="navigateTo('WorkWeatherApp')"><div class="morph pic"><img src="Images/pexels-photo-27665.jpg" class="img-responsive" style="width:100%;height:100%" alt="Image" /><span class="morphheading">MYY Weather<br>web Design</span></div></a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <a href="#WorkMacOs" data-target="#WorkMacOs" ng-click="navigateTo('WorkMacOs')"><div class="morph pic"><img src="Images/desk-office-computer-imac.jpg" class="img-responsive" style="width:100%;height:100%" alt="Image" /><span class="morphheading">MAC OS Theme</span></div></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="openModal" class="modalDialog" ng-show="SpinLoader==true">
+    <div id="cssload-loader">
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+    </div>
+</div>

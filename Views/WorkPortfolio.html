@@ -1,0 +1,51 @@
+﻿<div class='bg-wrapAnimae'>
+    <div ng-repeat="i in getSnowNumber(snowCount) track by $index" class="c"></div>
+</div>
+
+<div class="mainDivView" ng-cloak>
+    <div class="container">
+        <section>
+            <ul id="WorksDisplay">
+                <h2>
+                    Portfolio
+                </h2>
+                <h3>
+                    Responsive Web Application
+                </h3>
+                <li>
+                    <div class="picWorks img-shadow-1">
+                        <img class="img-responsive" src="../Images/MyyProtofolioSnap1.PNG" />
+                    </div>
+                </li>
+                <li>
+                    <div class="picWorks img-shadow-1">
+                        <img class="img-responsive" src="../Images/MyyProtofolioSnap2.PNG" />
+                    </div>
+                </li>
+                <li>
+                    <div class="picWorks img-shadow-1">
+                        <img class="img-responsive" src="../Images/MyyProtofolioSnap3.PNG" />
+                    </div>
+                </li>
+                <li>
+                    <div class="picWorks img-shadow-1">
+                        <img class="img-responsive" src="../Images/MyyProtofolioSnap4.PNG" />
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+    </div>
+</div>
+<div id="openModal" class="modalDialog" ng-show="SpinLoader==true">
+    <div id="cssload-loader">
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+    </div>
+</div>

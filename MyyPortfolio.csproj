@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C8C9FE5-0D24-42E0-96AB-74DFA677F34E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyyProtfolio</RootNamespace>
+    <AssemblyName>MyyProtfolio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controllers\AboutController.js" />
+    <Content Include="Controllers\App.js" />
+    <Content Include="Controllers\ContactController.js" />
+    <Content Include="Controllers\NavigationController.js" />
+    <Content Include="Controllers\WorkMacOsController.js" />
+    <Content Include="Controllers\WorkMyyAppController.js" />
+    <Content Include="Controllers\WorkPortfolioController.js" />
+    <Content Include="Controllers\WorksController.js" />
+    <Content Include="Controllers\WorkWeatherAppController.js" />
+    <Content Include="CSS\Bootstrap\css\bootstrap-theme.css" />
+    <Content Include="CSS\Bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="CSS\Bootstrap\css\bootstrap.css" />
+    <Content Include="CSS\Bootstrap\css\bootstrap.min.css" />
+    <Content Include="CSS\Bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="CSS\Bootstrap\js\bootstrap.js" />
+    <Content Include="CSS\Bootstrap\js\bootstrap.min.js" />
+    <Content Include="CSS\Bootstrap\js\npm.js" />
+    <Content Include="CSS\font-awesome-4.6.3\css\font-awesome.css" />
+    <Content Include="CSS\font-awesome-4.6.3\css\font-awesome.min.css" />
+    <Content Include="CSS\font-awesome-4.6.3\fonts\fontawesome-webfont.svg" />
+    <Content Include="CSS\font-awesome-4.6.3\HELP-US-OUT.txt" />
+    <Content Include="CSS\Main.css" />
+    <Content Include="CSS\SpinLoader.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\desk-office-computer-imac.jpg" />
+    <Content Include="Images\horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg" />
+    <Content Include="Images\landscape-mountains-nature-clouds.jpg" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\MacTheme.PNG" />
+    <Content Include="Images\MacTheme2.PNG" />
+    <Content Include="Images\MyProfilePic.png" />
+    <Content Include="Images\MyyAppSnap1.PNG" />
+    <Content Include="Images\MyyAppSnap2.PNG" />
+    <Content Include="Images\MyyAppSnap3.PNG" />
+    <Content Include="Images\MyyAppSnap4.PNG" />
+    <Content Include="Images\MyyProtofolioSnap1.PNG" />
+    <Content Include="Images\MyyProtofolioSnap2.PNG" />
+    <Content Include="Images\MyyProtofolioSnap3.PNG" />
+    <Content Include="Images\MyyProtofolioSnap4.PNG" />
+    <Content Include="Images\people-woman-coffee-meeting.jpg" />
+    <Content Include="Images\BackgroundPic.jpg" />
+    <Content Include="Images\pexels-photo-106344.jpeg" />
+    <Content Include="Images\pexels-photo-27665.jpg" />
+    <Content Include="Images\pexels-photo-60294.jpeg" />
+    <Content Include="Images\pexels-photo.jpg" />
+    <Content Include="Images\ProfileBackground.jpeg" />
+    <Content Include="Images\WeatherApp.PNG" />
+    <Content Include="Index.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\Angular-Route.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\NavbarUI.js" />
+    <Content Include="Views\About.html" />
+    <Content Include="Views\Contact.html" />
+    <Content Include="Views\WorkMacOs.html" />
+    <Content Include="Views\WorkMyyApp.html" />
+    <Content Include="Views\WorkPortfolio.html" />
+    <Content Include="Views\Works.html" />
+    <Content Include="Views\WorkWeatherApp.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="CSS\Bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="CSS\Bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="CSS\Bootstrap\css\bootstrap.css.map" />
+    <Content Include="CSS\Bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="CSS\Bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="CSS\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="CSS\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="CSS\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="CSS\font-awesome-4.6.3\fonts\fontawesome-webfont.eot" />
+    <Content Include="CSS\font-awesome-4.6.3\fonts\fontawesome-webfont.ttf" />
+    <Content Include="CSS\font-awesome-4.6.3\fonts\fontawesome-webfont.woff" />
+    <Content Include="CSS\font-awesome-4.6.3\fonts\fontawesome-webfont.woff2" />
+    <Content Include="CSS\font-awesome-4.6.3\fonts\FontAwesome.otf" />
+    <Content Include="CSS\font-awesome-4.6.3\less\animated.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\bordered-pulled.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\core.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\fixed-width.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\font-awesome.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\icons.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\larger.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\list.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\mixins.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\path.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\rotated-flipped.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\screen-reader.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\stacked.less" />
+    <Content Include="CSS\font-awesome-4.6.3\less\variables.less" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\font-awesome.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_animated.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_bordered-pulled.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_core.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_fixed-width.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_icons.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_larger.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_list.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_mixins.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_path.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_rotated-flipped.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_screen-reader.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_stacked.scss" />
+    <Content Include="CSS\font-awesome-4.6.3\scss\_variables.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business Layer\" />
+    <Folder Include="Directives\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55562</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55562/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

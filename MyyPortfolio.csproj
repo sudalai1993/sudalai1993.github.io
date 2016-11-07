@@ -104,7 +104,7 @@
     <Content Include="Images\pexels-photo.jpg" />
     <Content Include="Images\ProfileBackground.jpeg" />
     <Content Include="Images\WeatherApp.PNG" />
-    <Content Include="Index.aspx" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

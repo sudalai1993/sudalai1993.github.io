@@ -134,10 +134,7 @@ body a {
 .main-header .header-wrapper .main-menu li:last-child {
   padding: 0.75em 0;
 }
-.main-header .header-wrapper .main-menu li:nth-child(6) a:hover,
-.main-header .header-wrapper .main-menu li:last-child a:hover {
-  border: none;
-}
+
 /* Section-1 Styles */
 #section-1 {
   height: 38em;

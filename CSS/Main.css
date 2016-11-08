@@ -257,7 +257,6 @@ body a {
   font-size: 1em;
   color: #f6eac5;
   font-weight: 400;
-  cursor: pointer;
   transition: all .3s;
 }
 #section-1 .content-slider nav .controls label .progressbar {
@@ -280,9 +279,7 @@ body a {
   font-size: 1.4em;
   font-weight: 700;
 }
-#section-1 .content-slider nav .controls label:hover {
-  color: #e88382;
-}
+
 #section-1 .content-slider #banner1:checked ~ .slider #top-banner-1,
 #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2,
 #section-1 .content-slider #banner3:checked ~ .slider #top-banner-3,

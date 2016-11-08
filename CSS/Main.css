@@ -1348,7 +1348,7 @@ div p strong{
 	position: absolute;
 	border-radius: 50%;
 	opacity: .5;
-}
+} 
 
 .c:nth-child(1) {
 	transform: translateX(47vw) translateY(-5px);

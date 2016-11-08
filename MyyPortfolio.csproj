@@ -103,7 +103,8 @@
     <Content Include="Images\pexels-photo-60294.jpeg" />
     <Content Include="Images\pexels-photo.jpg" />
     <Content Include="Images\ProfileBackground.jpeg" />
-    <Content Include="Images\WeatherApp.PNG" />
+    <Content Include="Images\WeatherApp1.PNG" />
+    <Content Include="Images\WeatherApp2.PNG" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

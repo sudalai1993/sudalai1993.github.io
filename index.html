@@ -23,6 +23,28 @@
     <link href="CSS/Main.css" rel="stylesheet" />
     <link href="CSS/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
     <link href="CSS/SpinLoader.css" rel="stylesheet" />
+    <script>
+        //disabling right click
+        $(document).ready(function() {
+            $(document)[0].oncontextmenu = function() { return false; }
+            $(document).mousedown(function(e) {
+                if( e.button == 2 ) {
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+        });
+        //disabling f12
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                return false;  //Prevent from ctrl+shift+i
+            }
+        });
+        </script>
 </head>
 <body>
     <header id="headerMain" class="main-header">

@@ -1074,13 +1074,57 @@ header .social .btn {
 
 /*Profile Content*/
 .profile-small {
-  display:block;
-  background-color:#fff;
-  position:relative;
-  margin: 10px;
-  border-radius: 20px;
+    display: block;
+    background-color: #fff;
+    position: relative;
+    margin: 10px;
+    border-radius: 20px;
+    -webkit-animation: ProfilefadeinOut 3s linear 2s forwards;
+    -moz-animation: ProfilefadeinOut 3s linear 2s forwards;
+    animation: ProfilefadeinOut 2s linear 2s forwards;
+    opacity: 0;
 }
 
+/*Profile Animation*/
+@keyframes ProfilefadeinOut {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes ProfilefadeinOut {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes ProfilefadeinOut {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes ProfilefadeinOut {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 .headerProfile {
   width:100%;
   height:200px;

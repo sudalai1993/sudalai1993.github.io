@@ -499,6 +499,7 @@ body a {
     background:url('/Images/BackgroundPic.jpg') no-repeat center center;
     background-size:cover;
 }
+
 /* border box sizing to all boxes */
 
 * {
@@ -872,7 +873,7 @@ header .social .btn {
     position: absolute;
     bottom: -40px;
     right: -50px;
-    font-size: x-large;
+    font-size:large;
     color: white;
 }
 

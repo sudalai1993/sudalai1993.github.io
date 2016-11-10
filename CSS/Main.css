@@ -1308,6 +1308,7 @@ section #WorksDisplay li {
 	display: inline-block;
 	margin: 20px;
 	list-style: none;
+    max-width:100%;
 }
 
 
@@ -1342,6 +1343,7 @@ section #WorksDisplay h3 {
     transition: all  ease-in;
    position:relative;
    z-index:1;
+   max-width:100%;
 }
 
 div p strong{

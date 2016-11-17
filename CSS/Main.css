@@ -1079,50 +1079,67 @@ header .social .btn {
     position: relative;
     margin: 10px;
     border-radius: 20px;
-    -webkit-animation: ProfilefadeinOut 3s linear 2s forwards;
-    -moz-animation: ProfilefadeinOut 3s linear 2s forwards;
-    animation: ProfilefadeinOut 2s linear 2s forwards;
+    -webkit-animation: ProfilefadeinOut 1s linear 2s forwards;
+    -moz-animation: ProfilefadeinOut 1s linear 2s forwards;
+    animation: ProfilefadeinOut 1s linear 2s forwards;
     opacity: 0;
 }
 
 /*Profile Animation*/
 @keyframes ProfilefadeinOut {
-    50% {
-        opacity: 0.5;
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
     }
-
+    50%{
+        opacity: 0.6;
+    }
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 
 @-webkit-keyframes ProfilefadeinOut {
-    50% {
-        opacity: 0.5;
+     0% {
+        opacity: 0;
+        transform: translateY(-100%);
     }
-
+    50%{
+        opacity: 0.6;
+    }
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 
 @-moz-keyframes ProfilefadeinOut {
-    50% {
-        opacity: 0.5;
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
     }
-
+    50%{
+        opacity: 0.6;
+    }
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 
 @-o-keyframes ProfilefadeinOut {
-    50% {
-        opacity: 0.5;
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50%{
+        opacity: 0.6;
     }
 
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 .headerProfile {
@@ -1182,6 +1199,99 @@ transform: scale(3);
 
 .text {
   padding:50px 100px;
+}
+
+#AnimateText h3 {
+    -webkit-animation: TextAnimae 1s linear 2.5s forwards;
+    -moz-animation: TextAnimae 1s linear 2.5s forwards;
+    animation: TextAnimae 1s linear 2.5s forwards;
+    opacity: 0;
+}
+
+#AnimateText p:nth-of-type(1) {
+    -webkit-animation: TextAnimae 1s linear 3s forwards;
+    -moz-animation: TextAnimae 1s linear 3s forwards;
+    animation: TextAnimae 1s linear 3s forwards;
+    opacity: 0;
+}
+
+#AnimateText p:nth-of-type(2) {
+    -webkit-animation: TextAnimae 1s linear 3.5s forwards;
+    -moz-animation: TextAnimae 1s linear 3.5s forwards;
+    animation: TextAnimae 1s linear 3.5s forwards;
+    opacity: 0;
+}
+
+#AnimateText p:nth-of-type(3) {
+    -webkit-animation: TextAnimae 1s linear 4s forwards;
+    -moz-animation: TextAnimae 1s linear 4s forwards;
+    animation: TextAnimae 1s linear 4s forwards;
+    opacity: 0;
+}
+
+#AnimateText p:nth-of-type(4) {
+    -webkit-animation: TextAnimae 1s linear 4.5s forwards;
+    -moz-animation: TextAnimae 1s linear 4.5s forwards;
+    animation: TextAnimae 1s linear 4.5s forwards;
+    opacity: 0;
+}
+
+/*Profile Animation*/
+@keyframes TextAnimae {
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes TextAnimae {
+     0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@-moz-keyframes TextAnimae {
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@-o-keyframes TextAnimae {
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    50%{
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /*@media screen and (max-width:1400px) {

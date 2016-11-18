@@ -1046,6 +1046,20 @@ header .social .btn {
 	color: white;
 }
 
+@media only screen and (max-width: 480px) {
+
+    .lines .line .line__label {
+	display: block;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: -40px;
+    right: -50px;
+    font-size:x-small;
+    color: white;
+}
+}
+
 @keyframes anim-lightspeed-in {
 	0% {
 		transform: translateX(-200%);

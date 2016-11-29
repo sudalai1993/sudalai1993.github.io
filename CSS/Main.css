@@ -214,7 +214,7 @@ body a {
   border-color: #e88382;
   transition: .3s;
 }
-#section-1 .content-slider .slider #top-banner-1 {
+#section-1 .content-slider .slider #top-banner-1 { 
   background: url('/Images/amazing-animal-beautiful-beautifull.jpg') no-repeat center center;
   background-size: cover;
 }

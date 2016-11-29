@@ -81,6 +81,7 @@
     <Content Include="CSS\Main.css" />
     <Content Include="CSS\SpinLoader.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\amazing-animal-beautiful-beautifull.jpg" />
     <Content Include="Images\desk-office-computer-imac.jpg" />
     <Content Include="Images\horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg" />
     <Content Include="Images\landscape-mountains-nature-clouds.jpg" />
@@ -100,7 +101,6 @@
     <Content Include="Images\BackgroundPic.jpg" />
     <Content Include="Images\pexels-photo-106344.jpeg" />
     <Content Include="Images\pexels-photo-27665.jpg" />
-    <Content Include="Images\pexels-photo-60294.jpeg" />
     <Content Include="Images\pexels-photo.jpg" />
     <Content Include="Images\ProfileBackground.jpeg" />
     <Content Include="Images\WeatherApp1.PNG" />

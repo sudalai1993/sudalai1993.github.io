@@ -63,6 +63,7 @@
     <Content Include="Controllers\NavigationController.js" />
     <Content Include="Controllers\WorkMacOsController.js" />
     <Content Include="Controllers\WorkMyyAppController.js" />
+    <Content Include="Controllers\WorkPongal2k17Controller.js" />
     <Content Include="Controllers\WorkPortfolioController.js" />
     <Content Include="Controllers\WorksController.js" />
     <Content Include="Controllers\WorkWeatherAppController.js" />
@@ -86,6 +87,7 @@
     <Content Include="Images\horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg" />
     <Content Include="Images\landscape-mountains-nature-clouds.jpg" />
     <Content Include="Images\Logo.png" />
+    <Content Include="Images\MacCoverPic.jpg" />
     <Content Include="Images\MacTheme.PNG" />
     <Content Include="Images\MacTheme2.PNG" />
     <Content Include="Images\MyProfilePic.png" />
@@ -102,6 +104,10 @@
     <Content Include="Images\pexels-photo-106344.jpeg" />
     <Content Include="Images\pexels-photo-27665.jpg" />
     <Content Include="Images\pexels-photo.jpg" />
+    <Content Include="Images\PongalPrjt1.PNG" />
+    <Content Include="Images\PongalPrjt2.PNG" />
+    <Content Include="Images\PongalPrjt3.PNG" />
+    <Content Include="Images\PongalPrjt4.PNG" />
     <Content Include="Images\ProfileBackground.jpeg" />
     <Content Include="Images\WeatherApp1.PNG" />
     <Content Include="Images\WeatherApp2.PNG" />
@@ -124,6 +130,7 @@
     <Content Include="Views\Contact.html" />
     <Content Include="Views\WorkMacOs.html" />
     <Content Include="Views\WorkMyyApp.html" />
+    <Content Include="Views\WorkPongal2k17.html" />
     <Content Include="Views\WorkPortfolio.html" />
     <Content Include="Views\Works.html" />
     <Content Include="Views\WorkWeatherApp.html" />

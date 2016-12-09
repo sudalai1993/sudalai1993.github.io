@@ -8,5 +8,6 @@
       .when("/WorkMyyApp", { templateUrl: "/Views/WorkMyyApp.html", controller: "WorkMyyAppController" })
       .when("/WorkMacOs", { templateUrl: "/Views/WorkMacOs.html", controller: "WorkMacOsController" })
       .when("/WorkWeatherApp", { templateUrl: "/Views/WorkWeatherApp.html", controller: "WorkWeatherAppController" })
+      .when("/WorkPongal2k17", { templateUrl: "/Views/WorkPongal2k17.html", controller: "WorkPongal2k17Controller" })
       .otherwise({ redirectTo: "/Works" });
    })

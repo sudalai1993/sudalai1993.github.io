@@ -2493,32 +2493,32 @@ section #workservices li div {
 	background-image: url(/Images/people-woman-coffee-meeting.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
-    background-color: #fce1ae;
+    background-color:#f9f8f5;
 }
 #workservices .two {
 	background-image: url(/Images/pexels-photo-106344.jpeg);
 	background-repeat: no-repeat;
     background-size: cover;
-    background-color: #fce1ae;
+    background-color:#f9f8f5;
 }
 #workservices .three {
 	background-image: url(/Images/pexels-photo-27665.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
-   background-color: #fce1ae;
+   background-color: #f9f8f5;
 }
 #workservices .four {
 	background-image:url(/Images/desk-office-computer-imac.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-   background-color: #fce1ae;
+   background-color: #f9f8f5;
 }
 #workservices .five {
 	background-image:url(/Images/MacCoverPic.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
-    background-color: #fce1ae;
+    background-color: #f9f8f5;
 }
 
 .WorksUI:hover {

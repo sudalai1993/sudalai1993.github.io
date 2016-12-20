@@ -33,13 +33,22 @@
 
     //function to get a stylesheet and its css
 
-    $scope.getStyleSheet=function(cssName, rule) {
+    $scope.getStyleSheet = function (cssName, rule) {
         for (i = 0; i < document.styleSheets.length; i++) {
             if (document.styleSheets[i].href && document.styleSheets[i].href.toString().indexOf(cssName) != -1)
-                for (x = 0; x < document.styleSheets[i].rules.length; x++) {
-                    if (document.styleSheets[i].rules[x].selectorText && document.styleSheets[i].rules[x].selectorText.toString().indexOf(rule) != -1)
-                        return document.styleSheets[i].rules[x];
+                if (document.styleSheets[i].hasOwnProperty('rules')) {
+                    for (x = 0; x < document.styleSheets[i].rules.length; x++) {
+                        if (document.styleSheets[i].rules[x].selectorText && document.styleSheets[i].rules[x].selectorText.toString().indexOf(rule) != -1)
+                            return document.styleSheets[i].rules[x];
+                    }
                 }
+                else {
+                    for (x = 0; x < document.styleSheets[i].cssRules.length; x++) {
+                        if (document.styleSheets[i].cssRules[x].selectorText && document.styleSheets[i].cssRules[x].selectorText.toString().indexOf(rule) != -1)
+                            return document.styleSheets[i].cssRules[x];
+                    }
+                }
+
         }
 
         return null;

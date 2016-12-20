@@ -50,7 +50,7 @@
 
     $scope.changeTheme = function (upperColor, lowerColor, outlineShadow, shadow, gradient) {  
 
-        $scope.getStyleSheet('Main', '.main-header').style.color = upperColor;
+        $scope.getStyleSheet('Main', '.main-header').style.color = upperColor; 
         $scope.getStyleSheet('Main', '.main-headerScroll').style.backgroundColor = upperColor;
         $scope.getStyleSheet('Main', '.main-header .header-wrapper .main-menu li a').style.color = upperColor;
         $scope.getStyleSheet('Main', '.footerMain').style.backgroundColor = lowerColor;

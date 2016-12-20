@@ -48,7 +48,7 @@
 
     //function for Changing the theme
 
-    $scope.changeTheme = function (upperColor, lowerColor, outlineShadow, shadow, gradient) { 
+    $scope.changeTheme = function (upperColor, lowerColor, outlineShadow, shadow, gradient) {  
 
         $scope.getStyleSheet('Main', '.main-header').style.color = upperColor;
         $scope.getStyleSheet('Main', '.main-headerScroll').style.backgroundColor = upperColor;

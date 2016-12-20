@@ -1,9 +1,9 @@
 ﻿var WorkPortfolioController = angular.module("myyProtofolio")
 .controller("WorkPortfolioController", function ($scope, $rootScope) {
     $scope.SpinLoader = true;
-    $scope.showSwitch = true;
-    $("#switcher").css("transform", "translateX(0)");
-    $("#showSwitcher").css("transform", "translateX(-200%)");
+    $scope.showSwitch = false;
+    $("#switcher").css("transform", "translateX(-200%)");
+    $("#showSwitcher").css("transform", "translateX(0)");
     window.setTimeout(function () {
         $scope.$apply(function () {
             $scope.SpinLoader = false;

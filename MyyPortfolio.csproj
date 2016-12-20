@@ -109,6 +109,16 @@
     <Content Include="Images\PongalPrjt3.PNG" />
     <Content Include="Images\PongalPrjt4.PNG" />
     <Content Include="Images\ProfileBackground.jpeg" />
+    <Content Include="Images\Themee1.png" />
+    <Content Include="Images\Themee10.png" />
+    <Content Include="Images\Themee2.png" />
+    <Content Include="Images\Themee3.png" />
+    <Content Include="Images\Themee4.png" />
+    <Content Include="Images\Themee5.png" />
+    <Content Include="Images\Themee6.png" />
+    <Content Include="Images\Themee7.png" />
+    <Content Include="Images\Themee8.png" />
+    <Content Include="Images\Themee9.png" />
     <Content Include="Images\WeatherApp1.PNG" />
     <Content Include="Images\WeatherApp2.PNG" />
     <Content Include="index.html" />

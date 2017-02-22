@@ -73,7 +73,7 @@
         $scope.getStyleSheet('Main', '#timeline .timeline-item .timeline-icon').style.backgroundColor = lowerColor;
         //Save the preference in local Storage
         if (typeof (Storage) !== "undefined") {
-            localStorage.upperColor = upperColor;
+            localStorage.upperColor = upperColor; 
             localStorage.lowerColor = lowerColor;
             localStorage.outlineShadow = outlineShadow;
             localStorage.shadow = shadow;

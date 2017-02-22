@@ -73,5 +73,20 @@
         $scope.getStyleSheet('Main', '#timeline::before').style.backgroundColor = lowerColor;
         $scope.getStyleSheet('Main', '#timeline .timeline-item .timeline-icon').style.backgroundColor = lowerColor;
 
+        //Save the preference in local Storage
+        if (typeof (Storage) !== "undefined") {
+            localStorage.upperColor = upperColor;
+            localStorage.lowerColor = lowerColor;
+            localStorage.outlineShadow = outlineShadow;
+            localStorage.shadow = shadow;
+            localStorage.gradient = gradient;
+        }
+    }
+
+    //Initializing the stored themes
+    if (typeof (Storage) !== "undefined") {
+        if (localStorage.upperColor != undefined && localStorage.lowerColor != undefined) {
+            $scope.changeTheme(localStorage.upperColor, localStorage.lowerColor, localStorage.outlineShadow, localStorage.shadow, localStorage.gradient);
+        }
     }
 })

@@ -2488,7 +2488,7 @@ section #workservices li div {
 	transition: all 0.5s ease;
 }
 
- .WorksUI {
+ .WorksUI { 
 	
 	border-radius: 50%;
 	display: inline-block;
@@ -2509,9 +2509,9 @@ section #workservices li div {
     background-color:#f9f8f5;
 }
 #workservices .two {
-	background-image: url(/Images/pexels-photo-106344.jpeg);
+	background-image: url(/Images/apple-desk-office-technology.jpg);
 	background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color:#f9f8f5;
 }
 #workservices .three {
@@ -2521,13 +2521,19 @@ section #workservices li div {
    background-color: #f9f8f5;
 }
 #workservices .four {
+	background-image: url(/Images/pexels-photo-106344.jpeg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#f9f8f5;
+}
+#workservices .five {
 	background-image:url(/Images/desk-office-computer-imac.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
    background-color: #f9f8f5;
 }
-#workservices .five {
+#workservices .six {
 	background-image:url(/Images/MacCoverPic.jpg);
 	background-repeat: no-repeat;
     background-size: cover;

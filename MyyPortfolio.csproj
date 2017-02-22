@@ -60,6 +60,7 @@
     <Content Include="Controllers\AboutController.js" />
     <Content Include="Controllers\App.js" />
     <Content Include="Controllers\ContactController.js" />
+    <Content Include="Controllers\WorkDashboardHackathonController.js" />
     <Content Include="Controllers\NavigationController.js" />
     <Content Include="Controllers\WorkMacOsController.js" />
     <Content Include="Controllers\WorkMyyAppController.js" />
@@ -83,6 +84,13 @@
     <Content Include="CSS\SpinLoader.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\amazing-animal-beautiful-beautifull.jpg" />
+    <Content Include="Images\apple-desk-office-technology.jpg" />
+    <Content Include="Images\DashboardHackathon1.png" />
+    <Content Include="Images\DashboardHackathon2.png" />
+    <Content Include="Images\DashboardHackathon3.png" />
+    <Content Include="Images\DashboardHackathon4.png" />
+    <Content Include="Images\DashboardHackathon5.png" />
+    <Content Include="Images\DashboardHackathon6.png" />
     <Content Include="Images\desk-office-computer-imac.jpg" />
     <Content Include="Images\horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg" />
     <Content Include="Images\landscape-mountains-nature-clouds.jpg" />
@@ -138,6 +146,7 @@
     <Content Include="Scripts\NavbarUI.js" />
     <Content Include="Views\About.html" />
     <Content Include="Views\Contact.html" />
+    <Content Include="Views\WorkDashboardHackathon.html" />
     <Content Include="Views\WorkMacOs.html" />
     <Content Include="Views\WorkMyyApp.html" />
     <Content Include="Views\WorkPongal2k17.html" />

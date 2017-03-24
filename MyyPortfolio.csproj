@@ -201,6 +201,7 @@
     <Content Include="CSS\font-awesome-4.6.3\scss\_screen-reader.scss" />
     <Content Include="CSS\font-awesome-4.6.3\scss\_stacked.scss" />
     <Content Include="CSS\font-awesome-4.6.3\scss\_variables.scss" />
+    <Content Include="Ethnica.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

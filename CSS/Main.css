@@ -1420,6 +1420,35 @@ div p strong{
     transition: opacity 400ms ease-in;
     pointer-events: none;
 }
+/*New Model*/
+.LoaderAnime {
+  background: rgba(0, 0, 0, 0.79);
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  z-index:5000 !important;
+}
+
+        .LoaderAnime>div{
+          height: 250px;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          font-size: 25px;
+          line-height: 12em;             
+        }
 
 /*BackGround Animae*/
 
